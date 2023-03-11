@@ -1,5 +1,3 @@
-DOMAIN-SUFFIX,kwz.io
-DOMAIN-SUFFIX,kws.moe
 DOMAIN-SUFFIX,mseic.com
 IP-CIDR,88.99.218.218/24,no-resolve
 DOMAIN-SUFFIX,emby.wtf
@@ -13,7 +11,7 @@ DOMAIN-SUFFIX,nakonako.net
 DOMAIN-SUFFIX,nakoemby.com
 IP-CIDR,20.205.38.244/24,no-resolve
 DOMAIN-SUFFIX,misty.ltd
-DOMAIN-SUFFIX,embyplus.club
+DOMAIN-SUFFIX,embyplus.clu
 DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,himalaya.com
