@@ -17,3 +17,4 @@ DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,himalaya.com
 DOMAIN-SUFFIX,blueseamusics.com
 DOMAIN-SUFFIX,ii00.cc
+IP-CIDR,210.51.27.46/24,no-resolve
