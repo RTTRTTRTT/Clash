@@ -1,14 +1,3 @@
-[custom]
-
-;去广告：支持
-;自动测速：支持
-;微软分流：支持
-;苹果分流：支持
-;增强中国IP段：支持
-;增强国外GFW：支持
-
-;设置规则标志位
-;ruleset=🎯 国内流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Inside.list
 ruleset=📺 Free,https://raw.githubusercontent.com/RTTRTTRTT/Clash/main/Free.list
 ruleset=📺 Free,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
 ruleset=📲 TG,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
@@ -29,9 +18,7 @@ ruleset=🎯 China,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clas
 ruleset=🎯 China,[]GEOIP,CN
 ;ruleset=🍃 AD,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
 ruleset=🐟 Other,[]FINAL
-;设置规则标志位
 
-;设置分组标志位
 custom_proxy_group=🚀 All`select`[]🇭🇰 HK`[]DIRECT
 custom_proxy_group=🎯 China`select`[]🚀 All`[]DIRECT
 custom_proxy_group=📲 TG`select`[]🚀 All`[]🇸🇬 SG
@@ -45,9 +32,7 @@ custom_proxy_group=🇭🇰 HK`select`(香港|港|HK|Hong Kong|广港|蒙港)`ht
 ;;custom_proxy_group=🇨🇳 TW`select`(台湾|台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`180,,50
 ;custom_proxy_group=🇺🇲 US`select`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`180,,150
 ;custom_proxy_group=♻️ OT`select`(Taiwan|英国|俄罗斯|土耳其|Turkey|Argentina|Egypt|United Kingdom|India|Brazil|Australia|South Korea|North Korea|Poland|Israel|Antarctica|Iceland|Nigeria|法国|马来西亚|台湾)`http://www.gstatic.com/generate_204`300,,50
-;设置分组标志位
 
 enable_rule_generator=true
 overwrite_original_rules=true
 
-;clash_rule_base=https://raw.githubusercontent.com/cutethotw/ClashRule/main/GeneralClashConfig.yml
