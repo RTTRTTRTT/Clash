@@ -1,10 +1,10 @@
 IP-CIDR,88.99.218.218/24,no-resolve
-DOMAIN,i.kws.moe
 DOMAIN,sgtv.ii00.cc
 DOMAIN,g.once.im
 DOMAIN,sptv.ii00.cc
 DOMAIN,p.once.im
 DOMAIN,media.emby.vip
+DOMAIN-SUFFIX,kws.moe
 DOMAIN-SUFFIX,mefun.vip
 DOMAIN-SUFFIX,mcjoker.xyz
 DOMAIN-SUFFIX,tanhuatv.site
