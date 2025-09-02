@@ -1,5 +1,7 @@
 payload:
-  #Porn Streaming Modules
+##danmu
+  - DOMAIN-SUFFIX,dandanplay.net
+#Porn Streaming Modules
   - DOMAIN-KEYWORD,javday
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,phncdn.com
@@ -14,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,mushroomtrack.com
   - DOMAIN-SUFFIX,javrate.com
+  - DOMAIN-SUFFIX,b-cdn.net
 #Media Metadata Sources
   - DOMAIN-SUFFIX,imdb.com
   - DOMAIN-SUFFIX,media-imdb.com
@@ -25,3 +28,11 @@ payload:
   - DOMAIN-SUFFIX,iill.top
 #Trailer Cover
   - DOMAIN-SUFFIX,googlevideo.com
+#Infinite API
+  - DOMAIN-SUFFIX,malaysla.com
+  - DOMAIN-SUFFIX,biggggg.com
+  - DOMAIN-SUFFIX,nivod4.tv
+  - DOMAIN-SUFFIX,ulivetv.net
+  - DOMAIN-SUFFIX,efhie.com
+  - DOMAIN-SUFFIX,newpppp.com
+  - DOMAIN-SUFFIX,ceres9350.com
