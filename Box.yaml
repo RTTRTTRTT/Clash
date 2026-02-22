@@ -322,6 +322,11 @@ rule-providers:
 # 分流规则
 rules:
 
+  - RULE-SET,📺 Emby,📺 Emby
+  - RULE-SET,📺 Dmby,📺 Dmby
+  - RULE-SET,🍃 AD,🍃 AD
+  - RULE-SET,🚀 All,🚀 All
+  - RULE-SET,🎯 China,🎯 China
   - AND,((NOT,((OR,((PROCESS-NAME,mihomo),(PROCESS-NAME,ClashMeta))))),(DST-PORT,853)),屏蔽 #禁止非mihomo访问dot dns
   - GEOSITE,category-httpdns-cn,屏蔽 #屏蔽httpdns防止去广告失效
   - RULE-SET,AWAvenue,屏蔽 #去广告
