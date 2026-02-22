@@ -139,13 +139,13 @@ proxy-groups:
       - REJECT
       - DIRECT
       
-  - {name: 🇭🇰 HK, <<: *autotest, filter: "(?i)(🇭🇰|香港|hk|hongkong|hong kong|HK)"}
-  - {name: 🇨🇳 TW, <<: *autotest, filter: "(?i)(台湾|tw|taiwan|TW)"}
-  - {name: 🇸🇬 SG, <<: *autotest, filter: "(?i)(🇸🇬|新加坡|狮城|sg|singapore|SG)"}
-  - {name: 🇰🇷 KR, <<: *autotest, filter: "(?i)(KR|Korea|KOR|首尔|韩|韓)"}
-  - {name: 🇯🇵 JP, <<: *autotest, filter: "(?i)(🇯🇵|日|jp|japan|JP)"}
-  - {name: 🇺🇲 US, <<: *autotest, filter: "(?i)(🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|us|unitedstates|united states|US)"}
-  - {name: ♻️ OT, <<: *autotest, filter: "(?i)(Turkey|Argentina|Egypt|United Kingdom|India|Brazil|Australia|South Korea|North Korea|Poland|Israel|Antarctica|Iceland|Nigeria|澳门|英国|俄罗斯|土耳其|法国|马来西亚|马来|越南|泰国|德国|加拿大|澳大利亚|印度|阿根廷|乌克兰|卢森堡|荷兰|印尼|巴基斯坦|哈萨克斯坦|罗马尼亚|菲律宾|意大利|迪拜|尼日利亚)"}
+  - {name: 🇭🇰 HK, <<: autotest, filter: "(?i)(🇭🇰|香港|hk|hongkong|hong kong|HK)"}
+  - {name: 🇨🇳 TW, <<: autotest, filter: "(?i)(🇨🇳|台湾|tw|taiwan|TW)"}
+  - {name: 🇸🇬 SG, <<: autotest, filter: "(?i)(🇸🇬|新加坡|狮城|sg|singapore|SG)"}
+  - {name: 🇰🇷 KR, <<: autotest, filter: "(?i)(KR|Korea|KOR|首尔|韩|韓)"}
+  - {name: 🇯🇵 JP, <<: autotest, filter: "(?i)(🇯🇵|日|jp|japan|JP)"}
+  - {name: 🇺🇲 US, <<: autotest, filter: "(?i)(🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|us|unitedstates|united states|US)"}
+  - {name: ♻️ OT, <<: autotest, filter: "(?i)(Turkey|Argentina|Egypt|United Kingdom|India|Brazil|Australia|South Korea|North Korea|Poland|Israel|Antarctica|Iceland|Nigeria|澳门|英国|俄罗斯|土耳其|法国|马来西亚|马来|越南|泰国|德国|加拿大|澳大利亚|印度|阿根廷|乌克兰|卢森堡|荷兰|印尼|巴基斯坦|哈萨克斯坦|罗马尼亚|菲律宾|意大利|迪拜|尼日利亚)"}
 
 rule-providers:
   Emby_domain:
