@@ -167,70 +167,156 @@ proxy-providers:
 
 # 代理组
 proxy-groups:
-  - name: 代理设置
+  - name: 🚀 All
     type: select
     proxies:
-      - 国内分流
-      - 香港
-      - 台湾
-      - 日本
-      - 新加坡
-      - 美国
-      - 全部节点
+      - 🇭🇰 HK
+      - 🇨🇳 TW
+      - 🇸🇬 SG
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇲 US
+      - ♻️ OT
 
-  - name: 国内分流
+  - name: 🎯 China
     type: select
     proxies:
-      - DIRECT
-      - 中国
+      - 🇭🇰 HK
+      - 🇨🇳 TW
+      - 🇸🇬 SG
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇲 US
+      - ♻️ OT
 
-  - name: 屏蔽
+  - name: 📲 TG
     type: select
     proxies:
-      - REJECT-DROP
-      - REJECT
-      - DIRECT
+      - 🇭🇰 HK
+      - 🇨🇳 TW
+      - 🇸🇬 SG
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇲 US
+      - ♻️ OT
 
-  - name: AI分流
+  - name: 📺 Emby
     type: select
     proxies:
-      - 代理设置
-      - 香港
-      - 台湾
-      - 日本
-      - 新加坡
-      - 英国
-      - 美国
-      - 全部节点
+      - 🇭🇰 HK
+      - 🇨🇳 TW
+      - 🇸🇬 SG
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇲 US
+      - ♻️ OT
 
+  - name: 📺 Dmby
+    type: select
+    proxies:
+      - 🇭🇰 HK
+      - 🇨🇳 TW
+      - 🇸🇬 SG
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇲 US
+      - ♻️ OT
+
+  - name: 🐟 Other
+    type: select
+    proxies:
+      - 🇭🇰 HK
+      - 🇨🇳 TW
+      - 🇸🇬 SG
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇲 US
+      - ♻️ OT
+
+  - name: 🍃 AD
+    type: select
+    proxies:
+      - 🇭🇰 HK
+      - 🇨🇳 TW
+      - 🇸🇬 SG
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇲 US
+      - ♻️ OT
 
 # 按照区域划定策略组
-  - {name: 中国, <<: *pr, proxies: [中国自动选择], filter: "(?i)(🇨🇳|中国|cn|china|CN)", exclude-filter: "(?i)(台湾|tw|taiwan|TW)"}
-  - {name: 香港, <<: *pr, proxies: [香港自动选择], filter: "(?i)(🇭🇰|香港|hk|hongkong|hong kong|HK)"}
-  - {name: 台湾, <<: *pr, proxies: [台湾自动选择], filter: "(?i)(台湾|tw|taiwan|TW)"}
-  - {name: 日本, <<: *pr, proxies: [日本自动选择], filter: "(?i)(🇯🇵|日|jp|japan|JP)"}
-  - {name: 美国, <<: *pr, proxies: [美国自动选择], filter: "(?i)(🇺🇸|美|us|unitedstates|united states|US)"}
-  - {name: 英国, <<: *pr, proxies: [英国自动选择], filter: "(?i)(🇬🇧|英国|uk|英国|England|UK)"}
-  - {name: 新加坡, <<: *pr, proxies: [新加坡自动选择], filter: "(?i)(🇸🇬|新加坡|sg|singapore|SG)"}
-  - {name: 全部节点, proxies: [自动选择], <<: *pr}
+  - {name: 🇭🇰 HK, <<: *pr, proxies: [香港自动选择], filter: "(?i)(🇭🇰|香港|hk|hongkong|hong kong|HK)"}
+  - {name: 🇨🇳 TW, <<: *pr, proxies: [台湾自动选择], filter: "(?i)(台湾|tw|taiwan|TW)"}
+  - {name: 🇸🇬 SG, <<: *pr, proxies: [新加坡自动选择], filter: "(?i)(🇸🇬|新加坡|狮城|sg|singapore|SG)"}
+  - {name: 🇰🇷 KR, <<: *pr, proxies: [韩国自动选择], filter: "(?i)(KR|Korea|KOR|首尔|韩|韓)"}
+  - {name: 🇯🇵 JP, <<: *pr, proxies: [日本自动选择], filter: "(?i)(🇯🇵|日|jp|japan|JP)"}
+  - {name: 🇺🇲 US, <<: *pr, proxies: [美国自动选择], filter: "(?i)(🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|us|unitedstates|united states|US)"}
+  - {name: ♻️ OT, <<: *pr, proxies: [自动选择], filter: "(?i)(Turkey|Argentina|Egypt|United Kingdom|India|Brazil|Australia|South Korea|North Korea|Poland|Israel|Antarctica|Iceland|Nigeria|澳门|英国|俄罗斯|土耳其|法国|马来西亚|马来|越南|泰国|德国|加拿大|澳大利亚|印度|阿根廷|乌克兰|卢森堡|荷兰|印尼|巴基斯坦|哈萨克斯坦|罗马尼亚|菲律宾|意大利|迪拜|尼日利亚)"}
   # 下面这段为自动选择不会在面板显示 如果显示了说明你的面板不支持hidden字段
-  - {name: 中国自动选择, <<: *autotest, hidden: true, filter: "(?i)(🇨🇳|中国|cn|china|CN)", exclude-filter: "(?i)(台湾|tw|taiwan|TW)"}
   - {name: 香港自动选择, <<: *autotest, hidden: true, filter: "(?i)(🇭🇰|香港|hk|hongkong|hong kong|HK)"}
   - {name: 台湾自动选择, <<: *autotest, hidden: true, filter: "(?i)(台湾|tw|taiwan|TW)"}
+  - {name: 新加坡自动选择, <<: *autotest, hidden: true, filter: "(?i)(🇸🇬|新加坡|狮城|sg|singapore|SG)"}
+  - {name: 韩国自动选择, <<: *autotest, hidden: true, filter: "(?i)(KR|Korea|KOR|首尔|韩|韓)"}
   - {name: 日本自动选择, <<: *autotest, hidden: true, filter: "(?i)(🇯🇵|日|jp|japan|JP)"}
-  - {name: 美国自动选择, <<: *autotest, hidden: true, filter: "(?i)(🇺🇸|美|us|unitedstates|united states|US)"}
-  - {name: 英国自动选择, <<: *autotest, hidden: true, filter: "(?i)(🇬🇧|英国|uk|英国|England|UK)"}
-  - {name: 新加坡自动选择, <<: *autotest, hidden: true, filter: "(?i)(🇸🇬|新加坡|sg|singapore|SG)"}
-  - {name: 自动选择, <<: *autotest, hidden: true}
+  - {name: 美国自动选择, <<: *autotest, hidden: true, filter: "(?i)(🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|us|unitedstates|united states|US)"}
+  - {name: 自动选择, <<: *autotest, hidden: true，filter: "(?i)(Turkey|Argentina|Egypt|United Kingdom|India|Brazil|Australia|South Korea|North Korea|Poland|Israel|Antarctica|Iceland|Nigeria|澳门|英国|俄罗斯|土耳其|法国|马来西亚|马来|越南|泰国|德国|加拿大|澳大利亚|印度|阿根廷|乌克兰|卢森堡|荷兰|印尼|巴基斯坦|哈萨克斯坦|罗马尼亚|菲律宾|意大利|迪拜|尼日利亚)"}
 
 # 分流规则提供(订阅)组
 rule-providers:
-  AWAvenue:
-    type: http
-    behavior: classical
-    format: yaml
-    path: ./rule_providers/AWAvenue-Ads-Rule-Clash.yaml
-    url: "https://gcore.jsdelivr.net/gh/TG-Twilight/AWAvenue-Ads-Rule@main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml"
+  📺 Emby:
+    type: https
+    behavior: domain
+    format: list
+    path: ./Emby.list
+    url: "https://raw.githubusercontent.com/RTTRTTRTT/Clash/master/Emby.list"
+    interval: 60480
+
+📺 Dmby:
+    type: https
+    behavior: domain
+    format: list
+    path: ./Dmby.list
+    url: "https://raw.githubusercontent.com/RTTRTTRTT/Clash/master/Dmby.list"
+    interval: 60480
+
+🍃 AD:
+    type: https
+    behavior: domain
+    format: list
+    path: ./AD.list
+    url: "https://raw.githubusercontent.com/RTTRTTRTT/Clash/master/AD.list"
+    interval: 60480
+
+📲 TG:
+    type: https
+    behavior: domain
+    format: list
+    path: ./Telegram.list
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list"
+    interval: 60480
+
+🚀 All:
+    type: https
+    behavior: domain
+    format: list
+    path: ./Global.list
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+    interval: 60480
+
+🎯 China:
+    type: https
+    behavior: domain
+    format: list
+    path: ./China.list
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
+    interval: 60480
+
+🎯 China:
+    type: https
+    behavior: ipcidr
+    format: list
+    path: ./ChinaIPs.list
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPs.list"
     interval: 60480
 
 # 分流规则
@@ -241,13 +327,12 @@ rules:
   - RULE-SET,AWAvenue,屏蔽 #去广告
   - IP-CIDR,203.107.1.0/24,屏蔽,no-resolve # 阿里云ip httpdns
 
-  - GEOSITE,private,国内分流
-  - GEOSITE,connectivity-check,国内分流
-  - GEOSITE,googlefcm,国内分流
-  - GEOSITE,category-games@cn,国内分流
-  - GEOSITE,cn,国内分流
-  - GEOIP,PRIVATE,国内分流,no-resolve
-  - GEOIP,cn,国内分流,no-resolve
-  - GEOSITE,category-ai-!cn,AI分流
-  - GEOSITE,geolocation-!cn,代理设置
-  - MATCH,代理设置
+  - GEOSITE,private,🎯 China
+  - GEOSITE,connectivity-check,🎯 China
+  - GEOSITE,googlefcm,🎯 China
+  - GEOSITE,category-games@cn,🎯 China
+  - GEOSITE,cn,🎯 China
+  - GEOIP,PRIVATE,🎯 China,no-resolve
+  - GEOIP,cn,🎯 China,no-resolve
+  - GEOSITE,geolocation-!cn,♻️ OT
+  - MATCH,♻️ OT
