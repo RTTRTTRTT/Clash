@@ -271,7 +271,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/RTTRTTRTT/Clash/master/Emby.list"
     interval: 60480
 
-📺 Dmby:
+  📺 Dmby:
     type: https
     behavior: domain
     format: list
@@ -279,7 +279,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/RTTRTTRTT/Clash/master/Dmby.list"
     interval: 60480
 
-🍃 AD:
+  🍃 AD:
     type: https
     behavior: domain
     format: list
@@ -287,7 +287,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/RTTRTTRTT/Clash/master/AD.list"
     interval: 60480
 
-📲 TG:
+  📲 TG:
     type: https
     behavior: domain
     format: list
@@ -295,7 +295,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list"
     interval: 60480
 
-🚀 All:
+  🚀 All:
     type: https
     behavior: domain
     format: list
@@ -303,7 +303,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
     interval: 60480
 
-🎯 China:
+  🎯 China:
     type: https
     behavior: domain
     format: list
@@ -311,7 +311,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
     interval: 60480
 
-🎯 China:
+  🎯 China:
     type: https
     behavior: ipcidr
     format: list
