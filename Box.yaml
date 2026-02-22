@@ -102,24 +102,14 @@ proxy-groups:
   - name: 🎯 China
     type: select
     proxies:
-      - 🇭🇰 HK
-      - 🇨🇳 TW
-      - 🇸🇬 SG
-      - 🇰🇷 KR
-      - 🇯🇵 JP
-      - 🇺🇲 US
-      - ♻️ OT
+      - 🚀 All
+      - DIRECT
 
   - name: 📲 TG
     type: select
     proxies:
-      - 🇭🇰 HK
-      - 🇨🇳 TW
+      - 🚀 All
       - 🇸🇬 SG
-      - 🇰🇷 KR
-      - 🇯🇵 JP
-      - 🇺🇲 US
-      - ♻️ OT
 
   - name: 📺 Emby
     type: select
@@ -130,43 +120,27 @@ proxy-groups:
       - 🇰🇷 KR
       - 🇯🇵 JP
       - 🇺🇲 US
-      - ♻️ OT
-
+     
   - name: 📺 Dmby
     type: select
     proxies:
-      - 🇭🇰 HK
-      - 🇨🇳 TW
-      - 🇸🇬 SG
-      - 🇰🇷 KR
-      - 🇯🇵 JP
-      - 🇺🇲 US
-      - ♻️ OT
+      - 📺 Emby
+      - DIRECT
 
   - name: 🐟 Other
     type: select
     proxies:
-      - 🇭🇰 HK
-      - 🇨🇳 TW
-      - 🇸🇬 SG
-      - 🇰🇷 KR
-      - 🇯🇵 JP
-      - 🇺🇲 US
-      - ♻️ OT
+      - 🚀 All
+      - DIRECT
 
   - name: 🍃 AD
     type: select
     proxies:
-      - 🇭🇰 HK
-      - 🇨🇳 TW
-      - 🇸🇬 SG
-      - 🇰🇷 KR
-      - 🇯🇵 JP
-      - 🇺🇲 US
-      - ♻️ OT
-
+      - REJECT
+      - DIRECT
+      
   - {name: 🇭🇰 HK, <<: *autotest, filter: "(?i)(🇭🇰|香港|hk|hongkong|hong kong|HK)"}
-  - {name: 🇨🇳 T, <<: *autotest, filter: "(?i)(台湾|tw|taiwan|TW)"}
+  - {name: 🇨🇳 TW, <<: *autotest, filter: "(?i)(台湾|tw|taiwan|TW)"}
   - {name: 🇸🇬 SG, <<: *autotest, filter: "(?i)(🇸🇬|新加坡|狮城|sg|singapore|SG)"}
   - {name: 🇰🇷 KR, <<: *autotest, filter: "(?i)(KR|Korea|KOR|首尔|韩|韓)"}
   - {name: 🇯🇵 JP, <<: *autotest, filter: "(?i)(🇯🇵|日|jp|japan|JP)"}
