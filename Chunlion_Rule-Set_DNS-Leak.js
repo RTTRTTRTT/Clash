@@ -372,7 +372,7 @@ function main(config) {
     "appletv_domain": { type: "http", behavior: "domain", format: "mrs", interval: 86400, url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple-tvplus.mrs" },
     "emby_domain": { type: "http", behavior: "domain", format: "mrs", interval: 86400, url: "https://cdn.jsdelivr.net/gh/666OS/rules@release/mihomo/domain/Emby.mrs" },
     "add_emby": { type: "http", behavior: "domain", format: "mrs", interval: 86400, url: "https://cdn.jsdelivr.net/gh/Chunlion/Clash-Icons@main/Emby.mrs" },
-    "add_embyy": { type: "http", behavior: "domain", format: "mrs", interval: 86400, url: "https://raw.githubusercontent.com/RTTRTTRTT/Clash/refs/heads/main/Emby.list" },
+    "add_embyy": { type: "http", behavior: "classical", format: "yaml", interval: 86400, url: "https://raw.githubusercontent.com/RTTRTTRTT/Clash/refs/heads/main/Emby.list" },
     "vowifi": { type: "http", behavior: "domain", format: "mrs", interval: 86400, url: "https://raw.githubusercontent.com/Chunlion/Clash_Rule-Set/main/rules/UK-wifi-call.mrs" },
     "vowifi_keyword": { type: "http", behavior: "classical", format: "yaml", interval: 86400, url: "https://raw.githubusercontent.com/Chunlion/Clash_Rule-Set/main/rules/UK-wifi-call-keyword-mihomo.yaml" },
     "vowifi_ip": { type: "http", behavior: "ipcidr", format: "mrs", interval: 86400, url: "https://raw.githubusercontent.com/Chunlion/Clash_Rule-Set/main/rules/UK-wifi-call-ip.mrs" },
